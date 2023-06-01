@@ -1,0 +1,18 @@
+@media screen and (max-width: 992px){
+       
+    .blog-card{
+       grid-column: 1/4;
+       
+   }
+   
+   .navbar{
+     display: block;
+   }
+   
+   }
+   
+   @media screen and (max-width: 768px){
+       .blog-card{
+       grid-column: 1/4;
+       grid-row: 3/4;
+ }

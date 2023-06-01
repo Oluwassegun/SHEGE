@@ -4,32 +4,35 @@
     <meta charset="utf-8" />
     <title>Deji Food Blog!</title>
     <meta name="viewport" content= "width=device-width, initial-scale= 1.0" />
-    <link rel="stylesheet" href="main.CSS">
+    <link rel="stylesheet" href="CSS\main.CSS">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Sora:wght@300&display=swap" rel="stylesheet">
   </head>
  <body>
-      <div class="navbar">
-         <h1>Food</h1>
+    <div class="container">
+      <nav class="navbar">
         <ul class="links">
+          <a href="#" class="navbar-title"><h1>Food</h1></a>
           <li><a href="#" class="active">Home</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Contacts</a></li>
         </ul>
-      </div>
+      </nav>
 
-      <div class="blog-section">
-        <div class="section-content">
-          <div class="title">
-           <h2>Food Blog & News</h2>
-           <p>This is a food blog</p>
-         </div>  
-      <div class="Blog-card">
+      <header class="header">
+        <div class="title">
+          <h2><strong>Blog & News</strong></h2>
+        </div> 
+      </header>
+
+      <div class="blog-card">
         <div class="card">
           <div class="img-section">
-            <img src="/pancake image.jpg" alt="Pancake Image" />
+            <figure class="img-c">
+             <img src="/assets/pancake image.jpg"/>
+             <figcaption class="fig"><em>pancakes</em></figcaption>
+            </figure>
           </div>
           <div class="article">
-            <h4>Pancakes</h4>
             <p>How to make pancakes......</p>
           </div>
           <div class="blog-view">
@@ -42,10 +45,11 @@
         </div>
         <div class="card">
           <div class="img-section">
-            <img src="/download (1).jpg" alt="Boiled Eggs Image"/>
+            <figure class="img-c">
+              <img src="/assets/download (1).jpg"/>
+              <figcaption class="fig"><em>boiled eggs</em></figcaption>
           </div>
           <div class="article">
-            <h4>Boiled Eggs</h4>
             <p>How to make......</p>
           </div>
           <div class="blog-view">
@@ -57,10 +61,12 @@
         </div>
         <div class="card">
           <div class="img-section">
-            <img src="/download (2).jpg" alt="Potatoes Image"/>
+            <figure class="img-c">
+              <img src="/assets/download (2).jpg"/>
+            <figcaption class="fig"><em>Potatoes</em></figcaption>
+          </figure>
           </div>
           <div class="article">
-            <h4>Potatoes</h4>
             <p>How to make......</p>
           </div>
           <div class="blog-view">
@@ -70,14 +76,50 @@
             <p>Posted on Jan 15th.</p>
           </div>
        </div>
-     </div>
+        <div class="card">
+         <div class="img-section">
+          <figure class="img-c">
+           <img src="/assets/img1.jpg"/>
+           <figcaption class="fig"><em>veggie</em></figcaption>
+          </figure>
+         </div>
+          <div class="article">
+           <p>How to make......</p>
+         </div>
+          <div class="blog-view">
+           <a href="#" class="button">READ MORE</a>
+          </div>
+          <div class="posted-date">
+            <p>Posted on Jan 15th.</p>
+          </div>
+        </div>
+       <div class="card">
+        <div class="img-section">
+          <figure class="img-c">
+            <img src="/assets/img2.jpg" alt="Boiled Eggs Image"/>
+            <figcaption class="fig"><em>les cushine</em></figcaption>
+          </figure>
+        </div>
+        <div class="article">
+          <p>How to make......</p>
+        </div>
+        <div class="blog-view">
+          <a href="#" class="button">READ MORE</a>
+        </div>
+        <div class="posted-date">
+          <p>Posted on Jan 15th.</p>
+        </div>
+       </div>
+       
+      </div>
     </div>
-    <div>
-      <footer class="footer-box">
-      <h5><a href="blog.html">Go to Blogpost</a></h5>
-      
+        <footer class="footer-box">
+          <h5><a href="blog.html">Go to Blogpost</a></h5>
+  
 
-      </footer>
+        </footer>
+        
     </div>
+    
  </body>
 </html>

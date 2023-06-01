@@ -20,8 +20,9 @@
 
    .header-box{
      grid-area: hd;
-     align-items: center;
+     display: flex;
      margin: auto;
+     text-decoration: underline;
 
      
    }
@@ -30,7 +31,19 @@
     padding: 10px;
     
    }
+   .img-o{
+     position: relative;
+   }
 
+   .img-cap{
+   position: absolute;
+   bottom: 0;
+   text-align: center;
+   width: 100%;
+   left: 0;
+   font-style: italic;
+
+   }
    .grid-img{
     border-radius: 200px;
     height: 180px;
@@ -39,12 +52,15 @@
    }
    .footer-blog{
     grid-area: ft;
+    display: flex;
+    flex-direction: row;
     padding: 10px;
    }
    
    .logo{
+    margin: 10px 10px;
     text-decoration: none;
-    margin: 10px 20px;
+    align-items: center;
    }
 
 
