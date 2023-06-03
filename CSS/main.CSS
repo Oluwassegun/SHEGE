@@ -1,7 +1,6 @@
-@import url("/CSS/home.CSS");
-@import url("/CSS/navbar.CSS");
-@import url("/CSS/footer.css");
-@import url("/CSS/core.CSS");
-@import url(/CSS/responsive.CSS);
+@import url("home.CSS");
+@import url("navbar.CSS");
+@import url("core.CSS");
+@import url("responsive.CSS");
 
 
